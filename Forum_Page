@@ -3,23 +3,86 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>The Forum Page</title>
     <link href="bootstrap.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="bg-secondary">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <nav class="navbar bg-primary">
+    <nav class="navbar navbar-expand-lg bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand text-secondary" href="#">
-          <img src="Images/LogoFBC.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
-          FBC:   Forum Page
-        </a>
+        <a class="navbar-brand text-secondary" href="#"><img src="Images/LogoFBC.png" height="30"> Forested Bartering Company</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-secondary px-4" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary px-4" href="#">Trade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary px-4" href="#">Forum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary px-4" href="#">Inbox</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary px-4" href="#">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary px-4" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
-  </nav>
-  <p></p>
-  <label for="exampleDataList" class="form-label">Datalist example</label>
-<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Search Offers">
-<datalist id="datalistOptions">
-</datalist>
+    </nav>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search Offers" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    Featured
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"> item</li>
+    <li class="list-group-item"> item</li>
+    <li class="list-group-item"> item</li>
+  </ul>
+</div>
+  <h4 for="exampleDataList" class="form-label mt-5 ">Featured Offers</h4>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="d-grid gap-2 col-3 mx-auto">
+    <button class="btn btn-primary" type="button">See More</button>
+    </div>
+    <hr>
   </body>
 </html>
