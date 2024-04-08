@@ -21,44 +21,42 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <nav class="navbar navbar-expand-lg bg-primary sticky-top animate__animated animate__slideInDown">
-    <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#"><img src="Images/LogoFBC.png" height="30"> Forested Bartering
-        Company</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active text-white px-4" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white px-4" href="#">Trade</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white px-4" href="#">Forum</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white px-4" href="#">Inbox</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white px-4" href="#">Our Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white px-4" href="#">Contact Us</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-primary sticky-top animate__animated animate__slideInDown">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#"><img src="Images/LogoFBC.png" height="30"> Forested Bartering Company</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-justify" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/></svg></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white px-4" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-4" href="#">Trade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-4" href="#">Forum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-4" href="#">Inbox</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-4" href="#">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white px-4" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
 
 
   <div class="row">
     <div class="col col-4">
-      <h4 for="exampleDataList" class="form-label mt-1 ">Featured Offers</h4>
+      <h4 for="exampleDataList" class="text-center">Featured Offers</h4>
       <div class="card" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
@@ -70,10 +68,6 @@
           <li class="list-group-item">A second item</li>
           <li class="list-group-item">A third item</li>
         </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
       </div>
       <hr>
       <div class="card" style="width: 18rem;">
@@ -87,10 +81,6 @@
           <li class="list-group-item">A second item</li>
           <li class="list-group-item">A third item</li>
         </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
       </div>
       <hr>
       <div class="card" style="width: 18rem;">
@@ -104,10 +94,6 @@
           <li class="list-group-item">A second item</li>
           <li class="list-group-item">A third item</li>
         </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
       </div>
       <hr>
       <div class="card" style="width: 18rem;">
@@ -121,17 +107,13 @@
           <li class="list-group-item">A second item</li>
           <li class="list-group-item">A third item</li>
         </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
       </div>
     </div>
 
     <div class="col">
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search Offers" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-primary" type="submit">Search</button>
       </form>
       <div class="card" style=>
         <ul class="list-group list-group-flush">
@@ -149,13 +131,37 @@
           </div>
         </ul>
       </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-text" id="basic-addon2">@example.com</span>
+      </div>
+      
+      <div class="mb-3">
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon3">Item Name</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+        </div>
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <span class="input-group-text">.00</span>
+      </div>
+      
+      <div class="input-group">
+        <span class="input-group-text">Discrition of Item</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+      <button type="button" class="btn btn-outline-primary">Create Your Offer Here ➡ </button>
+
     </div>
-
   </div>
-
-
-
-
 
   <hr>
 </body>
