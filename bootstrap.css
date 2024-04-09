@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -3053,6 +3054,7 @@ input[type="button"].btn-block {
     justify-content: space-between; }
 
 .navbar-brand {
+  font-family: lobster;
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
