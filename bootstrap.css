@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -42,6 +44,9 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
+
+.lobster {
+  font-family: lobster; }
 
 body {
   margin: 0;
@@ -294,6 +299,7 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2; }
 
 h1, .h1 {
+  font-family:lobster;
   font-size: 2.5rem; }
 
 h2, .h2 {
@@ -3064,7 +3070,7 @@ input[type="button"].btn-block {
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
-
+  
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -3307,7 +3313,10 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  border-radius: 2rem; 
+  float: none; 
+  margin: 0 auto; 
+  margin-bottom: 10px;}
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
