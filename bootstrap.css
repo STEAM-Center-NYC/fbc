@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9,7 +8,7 @@
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
-  --green: #28a745;
+  --green: #1f482c;
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
@@ -299,6 +298,7 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2; }
 
 h1, .h1 {
+  font-family:lobster;
   font-size: 2.5rem; }
 
 h2, .h2 {
