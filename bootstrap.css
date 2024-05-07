@@ -36,6 +36,33 @@
 *::after {
   box-sizing: border-box; }
 
+.donotwrap {
+  white-space: nowrap;
+}
+
+@media (min-width: 991px) {
+  .nav-item {
+    font-size: 12.8px;
+  }
+}
+
+@media (min-width: 1042px) {
+  .nav-item {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1073px) {
+  .nav-item {
+    font-size: 16.6px;
+  }
+}
+
+@media (min-width: 1092px) {
+  .nav-item {
+    font-size: 17.4px;
+  }
+
 .logomaincolor {
   background-color: #1b4d2b;
 }
