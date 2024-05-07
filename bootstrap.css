@@ -36,6 +36,10 @@
 *::after {
   box-sizing: border-box; }
 
+.logomaincolor {
+  background-color: #1b4d2b;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -3315,7 +3319,6 @@ input[type="button"].btn-block {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 2rem; 
   float: none; 
-  margin: 0 auto; 
   margin-bottom: 10px;}
   .card > hr {
     margin-right: 0;
