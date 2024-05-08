@@ -64,6 +64,12 @@
   }
 }
 
+@media (min-width: 696px) {
+  .customform {
+    word-wrap: break-word;
+  }
+}
+
 .logomaincolor {
   background-color: #1b4d2b;
 }
